@@ -1,0 +1,19 @@
+{
+  "name": "label-print-system",
+  "version": "1.0.0",
+  "description": "Sistema de impressão de etiquetas hospitalares com suporte USB, TCP/IP, ZPL e EPL",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "net": "^1.0.2",
+    "node-printer": "^0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
